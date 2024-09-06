@@ -5,6 +5,7 @@ db.sqlite3
 .vscode/*
 .idea
 .idea/
+*.pyc
 
 */migrations/*.py
 __pycache__/
