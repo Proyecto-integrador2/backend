@@ -1,1 +1,11 @@
 venv/
+
+*.sqlite3
+db.sqlite3
+.vscode/*
+.idea
+.idea/
+
+*/migrations/*.py
+__pycache__/
+**/migrations/
