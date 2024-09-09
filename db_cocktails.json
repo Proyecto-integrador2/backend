@@ -1,0 +1,904 @@
+[
+    {
+        "nombre": "Abilene",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Dark rum",
+            "Peach nectar",
+            "Orange juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg",
+        "precio": 24631
+    },
+    {
+        "nombre": "Affinity",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Scotch",
+            "Sweet Vermouth",
+            "Dry Vermouth",
+            "Orange bitters"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg",
+        "precio": 29556
+    },
+    {
+        "nombre": "Afterglow",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Grenadine",
+            "Orange juice",
+            "Pineapple juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg",
+        "precio": 22108
+    },
+    {
+        "nombre": "Applejack",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Jack Daniels",
+            "Midori melon liqueur",
+            "Sour mix"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/sutyqp1479209062.jpg",
+        "precio": 14846
+    },
+    {
+        "nombre": "Aviation",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Gin",
+            "lemon juice",
+            "maraschino liqueur"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
+        "precio": 47962
+    },
+    {
+        "nombre": "Bellini",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Champagne",
+            "Peach schnapps"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
+        "precio": 46942
+    },
+    {
+        "nombre": "Bellini Martini",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Ice",
+            "Vodka",
+            "Peach nectar",
+            "Peach schnapps",
+            "Lemon peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/3h9wv51504389379.jpg",
+        "precio": 19012
+    },
+    {
+        "nombre": "Bloody Mary",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Vodka",
+            "Tomato juice",
+            "Lemon juice",
+            "Worcestershire sauce",
+            "Tabasco sauce",
+            "Lime"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/t6caa21582485702.jpg",
+        "precio": 29275
+    },
+    {
+        "nombre": "Boulevardier",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Campari",
+            "Sweet Vermouth",
+            "Rye whiskey",
+            "Orange Peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg",
+        "precio": 15907
+    },
+    {     
+        "nombre": "Bramble",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "lemon juice",
+            "Sugar syrup",
+            "Creme de Mure"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
+        "precio": 32850
+    },
+    {
+        "nombre": "Mountain Bramble",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Gin",
+            "Lemon Juice",
+            "Sugar Syrup",
+            "Blackberries",
+            "Soda Water",
+            "Mint"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/stwiva1619704025.jpg",
+        "precio": 46553
+    },
+    {
+        "nombre": "Brooklyn",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Rye Whiskey",
+            "Dry Vermouth",
+            "Maraschino Liqueur",
+            "Angostura Bitters",
+            "Maraschino Cherry"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg",
+        "precio": 33379
+    },
+    {
+        "nombre": "Caipirinha",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Sugar",
+            "Lime",
+            "Cachaca"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg",
+        "precio": 41811
+    },
+    {
+        "nombre": "Dark Caipirinha",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "demerara Sugar",
+            "Lime",
+            "Cachaca"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg",
+        "precio": 26783
+    },
+    {
+        "nombre": "Elderflower Caipirinha",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Cachaca",
+            "Lime",
+            "Elderflower cordial"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/dif7a31614006331.jpg",
+        "precio": 19819
+    },
+    {
+        "nombre": "Casino Royale",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "Lemon juice",
+            "Maraschino liqueur",
+            "Orange bitters",
+            "Egg yolk"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg",
+        "precio": 21466
+    },
+    {
+        "nombre": "Clover Club",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "Grenadine",
+            "Lemon",
+            "Egg white"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
+        "precio": 15602
+    },
+    {
+        "nombre": "Cosmopolitan",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Vodka",
+            "Lime juice",
+            "Cointreau",
+            "Cranberry juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
+        "precio": 10217
+    },
+    {
+        "nombre": "Cosmopolitan Martini",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Cointreau",
+            "Vodka",
+            "Lime",
+            "Cranberry juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg",
+        "precio": 48939
+    },
+    {
+        "nombre": "Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Lime",
+            "Powdered sugar"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+        "precio": 36198
+    },
+    {
+        "nombre": "Banana Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Triple sec",
+            "Banana",
+            "Lime juice",
+            "Sugar",
+            "Cherry"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg",
+        "precio": 31376
+    },
+    {
+        "nombre": "Frozen Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Triple sec",
+            "Lime juice",
+            "Sugar",
+            "Cherry",
+            "Ice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg",
+        "precio": 10071
+    },
+    {
+        "nombre": "Strawberry Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Strawberry schnapps",
+            "Light rum",
+            "Lime juice",
+            "Powdered sugar",
+            "Strawberries"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/deu59m1504736135.jpg",
+        "precio": 23914
+    },
+    {
+        "nombre": "Frozen Mint Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Lime juice",
+            "Mint",
+            "Sugar"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg",
+        "precio": 34247
+    },
+    {
+        "nombre": "Frozen Pineapple Daiquiri",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Pineapple",
+            "Lime juice",
+            "Sugar"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg",
+        "precio": 36986
+    },
+    {
+        "nombre": "Banana Strawberry Shake Daiquiri",
+        "categoria": "Shake",
+        "ingredientes": [
+            "Strawberries",
+            "Banana",
+            "Apple juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/uvypss1472720581.jpg",
+        "precio": 49007
+    },
+    {
+        "nombre": "Frosé",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Rose",
+            "Sugar",
+            "Strawberries",
+            "Lemon Juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/b4cadp1619695347.jpg",
+        "precio": 21962
+    },
+    {
+        "nombre": "Gagliardo",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Peach Vodka",
+            "Lemon juice",
+            "Galliano",
+            "Sirup of roses"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg",
+        "precio": 37689
+    },
+    {
+        "nombre": "Gimlet",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Gin",
+            "Lime Juice",
+            "Sugar Syrup",
+            "Lime"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg",
+        "precio": 15892
+    },
+    {
+        "nombre": "Green Goblin",
+        "categoria": "Beer",
+        "ingredientes": [
+            "Cider",
+            "Lager",
+            "Blue Curacao"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/qxprxr1454511520.jpg",
+        "precio": 34827
+    },
+    {
+        "nombre": "Long Island Tea",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Vodka",
+            "Light rum",
+            "Gin",
+            "Tequila",
+            "Lemon",
+            "Coca-Cola"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg",
+        "precio": 39783
+    },
+    {
+        "nombre": "Mai Tai",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Orgeat syrup",
+            "Triple sec",
+            "Sweet and sour",
+            "Cherry"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+        "precio": 22426
+    },
+    {
+        "nombre": "Manhattan",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Sweet Vermouth",
+            "Bourbon",
+            "Angostura bitters",
+            "Ice",
+            "Maraschino cherry",
+            "Orange peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+        "precio": 40401
+    },
+    {
+        "nombre": "Margarita",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Tequila",
+            "Triple sec",
+            "Lime juice",
+            "Salt"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+        "precio": 19839
+    },
+    {
+        "nombre": "Blue Margarita",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Tequila",
+            "Blue Curacao",
+            "Lime juice",
+            "Salt"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
+        "precio": 24830
+    },
+    {
+        "nombre": "Tommy's Margarita",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Tequila",
+            "Lime Juice",
+            "Agave syrup"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+        "precio": 42471
+    },
+    {
+        "nombre": "Whitecap Margarita",
+        "categoria": "Other / Unknown",
+        "ingredientes": [
+            "Ice",
+            "Tequila",
+            "Cream of coconut",
+            "Lime juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
+        "precio": 13619
+    },
+    {
+        "nombre": "Strawberry Margarita",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Strawberry schnapps",
+            "Tequila",
+            "Triple sec",
+            "Lemon juice",
+            "Strawberries",
+            "Salt"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
+        "precio": 32426
+    },
+    {
+        "nombre": "Smashed Watermelon Margarita",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Watermelon",
+            "Mint",
+            "Grapefruit Juice",
+            "Lime",
+            "Tequila",
+            "Watermelon",
+            "Mint"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
+        "precio": 36631
+    },
+    {
+        "nombre": "Michelada",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Beer",
+            "Tomato Juice",
+            "Lime Juice",
+            "Hot Sauce",
+            "Worcestershire Sauce",
+            "Soy Sauce"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/u736bd1605907086.jpg",
+        "precio": 34747
+    },
+    {
+        "nombre": "Mimosa",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Champagne",
+            "Orange juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg",
+        "precio": 21100
+    },
+    {
+        "nombre": "Mojito",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Light rum",
+            "Lime",
+            "Sugar",
+            "Mint",
+            "Soda water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+        "precio": 45102
+    },
+    {
+        "nombre": "Mojito Extra",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Mint",
+            "Lemon juice",
+            "Dark rum",
+            "Club soda",
+            "Angostura bitters"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg",
+        "precio": 31569
+    },
+    {
+        "nombre": "Mango Mojito",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Lime",
+            "Mango",
+            "Mint",
+            "White Rum",
+            "Ice",
+            "Soda Water",
+            "Mango"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/wfqmgm1630406820.jpg",
+        "precio": 22598
+    },
+    {
+        "nombre": "Blueberry Mojito",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Dark Rum",
+            "Lime Juice",
+            "Sugar",
+            "Blueberries",
+            "Lemon-lime soda"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/07iep51598719977.jpg",
+        "precio": 25150
+    },
+    {
+        "nombre": "Moscow Mule",
+        "categoria": "Punch / Party Drink",
+        "ingredientes": [
+            "Vodka",
+            "Lime juice",
+            "Ginger ale"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
+        "precio": 18394
+    },
+    {
+        "nombre": "Negroni",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "Campari",
+            "Sweet Vermouth"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+        "precio": 18420
+    },
+    {
+        "nombre": "French Negroni",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Gin",
+            "Lillet",
+            "Sweet Vermouth",
+            "Orange Peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg",
+        "precio": 47621
+    },
+    {
+        "nombre": "Garibaldi Negroni",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Gin",
+            "Campari",
+            "Orange Juice",
+            "Orange Peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/kb4bjg1604179771.jpg",
+        "precio": 44182
+    },
+    {
+        "nombre": "Old Fashioned",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Bourbon",
+            "Angostura bitters",
+            "Sugar",
+            "Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+        "precio": 18690
+    },
+    {
+        "nombre": "Orangeade",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Lemon juice",
+            "Orange juice",
+            "Sugar syrup",
+            "Soda water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/ytsxxw1441167732.jpg",
+        "precio": 20789
+    },
+    {
+        "nombre": "Paloma",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Grape Soda",
+            "Tequila"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
+        "precio": 11160
+    },
+    {
+        "nombre": "Winter Paloma",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Tequila",
+            "Grapefruit Juice",
+            "Lime Juice",
+            "Agave Syrup",
+            "Pepper"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/u5f0pz1614007748.jpg",
+        "precio": 15931
+    },
+    {
+        "nombre": "Pineapple Paloma",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Tequila",
+            "Grapefruit Juice",
+            "Fresh Lime Juice",
+            "Pineapple Juice",
+            "Lime",
+            "Pepper"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/pg8iw31593351601.jpg",
+        "precio": 46592
+    },
+    {
+        "nombre": "Lazy Coconut Paloma",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Coconut Liqueur",
+            "Grapefruit Juice",
+            "Soda Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/rytuex1598719770.jpg",
+        "precio": 30734
+    },
+    {
+        "nombre": "Penicillin",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Blended Scotch",
+            "Lemon Juice",
+            "Honey syrup",
+            "Ginger Syrup",
+            "Islay single malt Scotch"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
+        "precio": 38826
+    },
+    {
+        "nombre": "Pina Colada",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Light rum",
+            "Coconut milk",
+            "Pineapple"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+        "precio": 36702
+    },
+    {
+        "nombre": "Sangria",
+        "categoria": "Punch / Party Drink",
+        "ingredientes": [
+            "Red wine",
+            "Sugar",
+            "Orange juice",
+            "Lemon juice",
+            "Cloves",
+            "Cinnamon"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg",
+        "precio": 32429
+    },
+    {
+        "nombre": "Sweet Sangria",
+        "categoria": "Punch / Party Drink",
+        "ingredientes": [
+            "Red wine",
+            "Sugar",
+            "Water",
+            "Apple",
+            "Orange",
+            "Lime",
+            "Lemon",
+            "Fresca"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg",
+        "precio": 35963
+    },
+    {
+        "nombre": "Sangria The  Best",
+        "categoria": "Punch / Party Drink",
+        "ingredientes": [
+            "Red wine",
+            "Sugar",
+            "Lemon",
+            "Orange",
+            "Apple",
+            "Brandy",
+            "Soda water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/vysywu1468924264.jpg",
+        "precio": 10725
+    },
+    {
+        "nombre": "White Wine Sangria",
+        "categoria": "Punch / Party Drink",
+        "ingredientes": [
+            "Lime",
+            "lemon",
+            "White Wine",
+            "Strawberries",
+            "Apple",
+            "Apple Brandy",
+            "Soda Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg",
+        "precio": 44476
+    },
+    {
+        "nombre": "Sazerac",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Ricard",
+            "Sugar",
+            "Peychaud bitters",
+            "Water",
+            "Bourbon",
+            "Lemon peel"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
+        "precio": 40305
+    },
+    {
+        "nombre": "Scooter",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Brandy",
+            "Amaretto",
+            "Light cream"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg",
+        "precio": 35428
+    },
+    {
+        "nombre": "Spritz",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Prosecco",
+            "Campari",
+            "Soda Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg",
+        "precio": 22213
+    },
+    {
+        "nombre": "Aperol Spritz",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Aperol",
+            "Prosecco",
+            "Soda Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/iloasq1587661955.jpg",
+        "precio": 12776
+    },
+    {
+        "nombre": "Spritz Veneziano",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Prosecco",
+            "Aperol",
+            "Soda Water"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/51ezka1551456113.jpg",
+        "precio": 27787
+    },
+    {
+        "nombre": "Lemon Elderflower Spritzer",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Elderflower cordial",
+            "Vodka",
+            "Soda Water",
+            "Fresh Lemon Juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/125w0o1630407389.jpg",
+        "precio": 44940
+    },
+    {
+        "nombre": "Tom Collins",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "Lemon juice",
+            "Sugar",
+            "Club soda",
+            "Maraschino cherry",
+            "Orange"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
+        "precio": 42302
+    },
+    {
+        "nombre": "Vodka Lemon",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Vodka",
+            "Lemon Juice",
+            "Lemon Peel",
+            "Ice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/mql55h1643820632.jpg",
+        "precio": 32363
+    },
+    {
+        "nombre": "Whiskey Sour",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Blended whiskey",
+            "Lemon",
+            "Powdered sugar",
+            "Cherry",
+            "Lemon"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+        "precio": 32334
+    },
+    {
+        "nombre": "White Lady",
+        "categoria": "Ordinary Drink",
+        "ingredientes": [
+            "Gin",
+            "Triple Sec",
+            "Lemon Juice"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg",
+        "precio": 22206
+    },
+    {
+        "nombre": "Zombie",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Rum",
+            "Gold rum",
+            "151 proof rum",
+            "Pernod",
+            "Grenadine",
+            "Lime Juice",
+            "Angostura Bitters"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg",
+        "precio": 25327
+    },
+    {
+        "nombre": "Zorbatini",
+        "categoria": "Cocktail",
+        "ingredientes": [
+            "Vodka",
+            "Ouzo"
+        ],
+        "imagen": "https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg",
+        "precio": 12919
+    }
+]
