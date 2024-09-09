@@ -3,6 +3,7 @@ from rest_framework import viewsets
 from .models import Mesa, Producto, Pedido, DetallePedido, Empleado
 from .serializers import MesaSerializer, ProductoSerializer, PedidoSerializer, DetallePedidoSerializer, EmpleadoSerializer
 from rest_framework.permissions import IsAdminUser
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
