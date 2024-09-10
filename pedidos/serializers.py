@@ -11,17 +11,22 @@ class ProductoSerializer(serializers.ModelSerializer):
         model = Producto
         fields = '__all__'
 
+class DetallePedidoSerializer(serializers.ModelSerializer):
+    producto_nombre = serializers.CharField(source='producto.nombre', read_only=True)
+    producto_imagen = serializers.CharField(source='producto.imagen_url', read_only=True)
+
+    class Meta:
+        model = DetallePedido
+        fields = ['id_detalle_pedido', 'producto_nombre', 'cantidad', 'comentarios', 'producto_imagen']
+
 class PedidoSerializer(serializers.ModelSerializer):
-    detalles = serializers.StringRelatedField(many=True)
+    detalles = DetallePedidoSerializer(many=True, read_only=True)  # Incluir detalles del pedido
+    mesa_numero = serializers.CharField(source='mesa.id_mesa', read_only=True)
+    mesa_ubicacion = serializers.CharField(source='mesa.ubicacion', read_only=True)
 
     class Meta:
         model = Pedido
-        fields = '__all__'
-
-class DetallePedidoSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = DetallePedido
-        fields = '__all__'
+        fields = ['id_pedido', 'fecha_hora', 'estado', 'mesa_numero', 'mesa_ubicacion', 'detalles']
 
 class EmpleadoSerializer(serializers.ModelSerializer):
     class Meta:
