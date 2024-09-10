@@ -44,7 +44,7 @@ class DetallePedido(models.Model):
     comentarios = models.TextField(blank=True, null=True)
 
     def __str__(self):
-        return f"Detalle Pedido {self.id_detalle_pedido} - Pedido {self.pedido.id_pedido}"
+        return f"Detalle {self.id_detalle_pedido} - Pedido {self.pedido.id_pedido}"
 
 
 class Empleado(models.Model):

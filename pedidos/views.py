@@ -17,12 +17,18 @@ class ProductoViewSet(viewsets.ModelViewSet):
     serializer_class = ProductoSerializer
 
 class PedidoViewSet(viewsets.ModelViewSet):
-    permission_classes = [IsAdminUser]
+    #permission_classes = [IsAdminUser]
     queryset = Pedido.objects.all()
     serializer_class = PedidoSerializer
 
-    def get(self, request):
-        return Response({"message": "Solo administradores pueden acceder a esta vista"})
+    def get_queryset(self):
+        return Pedido.objects.filter(estado='pendiente').order_by(
+            'fecha_hora')  # Solo pedidos pendientes ordenados por fecha
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
 
 class DetallePedidoViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAdminUser]
