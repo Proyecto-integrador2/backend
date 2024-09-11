@@ -28,6 +28,17 @@ class PedidoSerializer(serializers.ModelSerializer):
         model = Pedido
         fields = ['id_pedido', 'fecha_hora', 'estado', 'mesa_numero', 'mesa_ubicacion', 'detalles']
 
+class DetallePedidoCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DetallePedido
+        fields = ['pedido', 'producto', 'cantidad', 'comentarios']
+
+class PedidoCreateSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Pedido
+        fields = ['mesa', 'estado']
+
 class EmpleadoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Empleado
