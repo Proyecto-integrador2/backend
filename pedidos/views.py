@@ -1,11 +1,13 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from .models import Mesa, Producto, Pedido, DetallePedido, Empleado
-from .serializers import MesaSerializer, ProductoSerializer, PedidoSerializer, DetallePedidoSerializer, EmpleadoSerializer
+from .serializers import MesaSerializer, ProductoSerializer, PedidoSerializer, PedidoCreateSerializer, \
+    DetallePedidoSerializer, EmpleadoSerializer, DetallePedidoCreateSerializer
 from rest_framework.permissions import IsAdminUser
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework import status
 
 # Create your views here.
 class MesaViewSet(viewsets.ModelViewSet):
@@ -22,13 +24,29 @@ class PedidoViewSet(viewsets.ModelViewSet):
     serializer_class = PedidoSerializer
 
     def get_queryset(self):
-        return Pedido.objects.filter(estado='pendiente').order_by(
-            'fecha_hora')  # Solo pedidos pendientes ordenados por fecha
+        return Pedido.objects.filter(estado='pendiente').order_by('fecha_hora')  # Solo pedidos pendientes ordenados por fecha
 
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
+
+    def create(self, request, *args, **kwargs):
+        data = request.data
+        detalles_data = data.pop('detalles', [])
+        pedido_serializer = PedidoCreateSerializer(data=data)
+
+        if pedido_serializer.is_valid():
+            pedido = pedido_serializer.save()
+            for detalle_data in detalles_data:
+                detalle_data['pedido'] = pedido.id_pedido
+                detalle_serializer = DetallePedidoCreateSerializer(data=detalle_data)
+                if detalle_serializer.is_valid():
+                    detalle_serializer.save()
+                else:
+                    return Response(detalle_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            return Response(pedido_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(pedido_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class DetallePedidoViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAdminUser]
