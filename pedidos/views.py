@@ -8,6 +8,8 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 from rest_framework.filters import OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from .filters import PedidoFilter
@@ -48,6 +50,16 @@ class PedidoViewSet(viewsets.ModelViewSet):
                     detalle_serializer.save()
                 else:
                     return Response(detalle_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+            # Enviar notificación por WebSocket
+            channel_layer = get_channel_layer()
+            async_to_sync(channel_layer.group_send)(
+                'pedidos',
+                {
+                    'type': 'send_notification',
+                    'message': f'Nuevo pedido: {pedido.mesa}'
+                }
+            )
             return Response(pedido_serializer.data, status=status.HTTP_201_CREATED)
         return Response(pedido_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
