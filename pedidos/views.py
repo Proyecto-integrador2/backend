@@ -8,6 +8,9 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
+from rest_framework.filters import OrderingFilter
+from django_filters.rest_framework import DjangoFilterBackend
+from .filters import PedidoFilter
 
 # Create your views here.
 class MesaViewSet(viewsets.ModelViewSet):
@@ -59,4 +62,11 @@ class DetallePedidoViewSet(viewsets.ModelViewSet):
 class EmpleadoViewSet(viewsets.ModelViewSet):
     queryset = Empleado.objects.all()
     serializer_class = EmpleadoSerializer
+
+class OrderHistoryViewSet(viewsets.ModelViewSet):
+    queryset = Pedido.objects.all()
+    serializer_class = PedidoSerializer
+    filter_backends = [DjangoFilterBackend, OrderingFilter]
+    filterset_class = PedidoFilter
+    ordering_fields = ['fecha_hora', 'id_pedido']
 
