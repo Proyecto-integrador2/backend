@@ -13,7 +13,7 @@ from asgiref.sync import async_to_sync
 from rest_framework.filters import OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from .filters import PedidoFilter
-from django.db.models import Count
+from django.db.models import Count, Q
 from rest_framework.views import APIView
 
 # Create your views here.
@@ -31,7 +31,7 @@ class PedidoViewSet(viewsets.ModelViewSet):
     serializer_class = PedidoSerializer
 
     def get_queryset(self):
-        return Pedido.objects.filter(estado='pendiente').order_by('fecha_hora')  # Solo pedidos pendientes ordenados por fecha
+        return Pedido.objects.filter(Q(estado = "pendiente") | Q(estado = "en_preparacion")).order_by('fecha_hora')  # Solo pedidos pendientes o en preparación ordenados por fecha
 
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
