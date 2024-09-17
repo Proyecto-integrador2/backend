@@ -40,6 +40,7 @@ class PedidoViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         data = request.data
+        print(data)
         detalles_data = data.pop('detalles', [])
         pedido_serializer = PedidoCreateSerializer(data=data)
 

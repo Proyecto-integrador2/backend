@@ -26,7 +26,7 @@ class PedidoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Pedido
-        fields = ['id_pedido', 'fecha_hora', 'estado', 'mesa_numero', 'mesa_ubicacion', 'detalles']
+        fields = ['id_pedido', 'fecha_hora', 'estado', 'mesa_numero', 'mesa_ubicacion', 'detalles', 'precio_pedido']
 
 class DetallePedidoCreateSerializer(serializers.ModelSerializer):
     class Meta:
@@ -37,7 +37,7 @@ class PedidoCreateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Pedido
-        fields = ['mesa', 'estado']
+        fields = ['mesa', 'estado', 'precio_pedido']
 
 class EmpleadoSerializer(serializers.ModelSerializer):
     class Meta:

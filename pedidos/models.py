@@ -31,6 +31,7 @@ class Pedido(models.Model):
     fecha_hora = models.DateTimeField(auto_now_add=True)
     estado = models.CharField(max_length=20, choices=ESTADO_CHOICES, default='pendiente')
     mesa = models.ForeignKey(Mesa, on_delete=models.CASCADE, related_name='pedidos')
+    precio_pedido = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
 
     def __str__(self):
         return f"Pedido {self.id_pedido} - Mesa {self.mesa.id_mesa}"
